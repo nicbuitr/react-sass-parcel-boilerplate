@@ -2,7 +2,7 @@
 
 ## Information:
 
-This project is a boilerplate which as its name describes, is built with React.js, SAAS and Parcel Bundler.
+This project is a boilerplate which as its name describes, is built with React.js, SASS and Parcel Bundler.
 
 ## Changes (DD/MM/AAAA)
 
@@ -10,13 +10,13 @@ This project is a boilerplate which as its name describes, is built with React.j
 
 ## How To View:
 
-Just click here [react-saas-parcel-boilerplate](https://nicbuitr.github.io/react-saas-parcel-boilerplate/)
+Just click here [react-sass-parcel-boilerplate](https://nicbuitr.github.io/react-sass-parcel-boilerplate/)
 
 ## How To Download:
 
 Just download or clone the repo:
 
-$ git clone https://github.com/nicbuitr/react-saas-parcel-boilerplate.git
+$ git clone https://github.com/nicbuitr/react-sass-parcel-boilerplate.git
 
 ## Installation
 
