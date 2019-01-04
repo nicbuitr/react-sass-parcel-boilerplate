@@ -6,7 +6,7 @@
   "main": "index.jsx",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "build": "parcel build ./src/index.html docs --public-url ./"
   },
   "keywords": [],
   "author": "",

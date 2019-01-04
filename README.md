@@ -34,6 +34,4 @@ And finally, to initialize the app run:
 
     $ npm start
 
-Once its deployed go to:
-
-	$ http://localhost:1234/
+Once its deployed go to http://localhost:1234/
