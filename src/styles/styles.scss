@@ -1,0 +1,101 @@
+@import './variables.scss';
+
+@function doSomething($param){
+  @return $param;
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+body {
+  background: $bg-color;
+  
+  .header {
+    background: $header-color;
+  }
+
+  .footer {
+    background: $footer-color;
+  }
+
+  .app {
+    $self: &;
+    background: $body-color;
+  }
+
+  section {
+    text-align: center;
+    padding: 5px;
+    margin:15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-shadow: 0 7.5px 7.5px rgba(0, 0, 0, 0.12);
+
+    h1 {
+      color: red;
+      padding-right: 1rem;
+    }
+
+    .app {
+      $self: &;
+      &__search-box {
+        input {
+          background: transparent;
+          border: none;
+          box-sizing: border-box;
+          font-size: 1.5em;
+          font-style: italic;
+          text-align: center;
+          width: 100%;
+        }
+      }
+
+      &__content{
+        @include desktop {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .app__joke {
+          display: block;
+
+          @include desktop {
+            display: flex;
+          }
+        }
+        .app__experiences {
+          
+          @include desktop {
+            min-width: 30%;
+          }
+          .app__exp {
+            @include desktop {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-flow: wrap;
+            }
+          }
+        }
+
+        div {
+          padding: 5px;
+          margin:10px;
+          @include desktop {
+            border: 1px solid #333;
+            border-radius: 4px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.12);
+          }
+        }
+      }
+    }
+    .footer__copy {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

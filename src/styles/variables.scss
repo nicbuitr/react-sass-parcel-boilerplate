@@ -1,0 +1,7 @@
+$col-var-pct: 5%;
+$base-color: white;
+$bg-color: lighten($base-color, $col-var-pct);
+$header-color: darken($base-color, $col-var-pct);
+$body-color: darken($base-color, $col-var-pct * 2);
+$footer-color: darken($base-color, $col-var-pct);
+$desktop: 840px;
