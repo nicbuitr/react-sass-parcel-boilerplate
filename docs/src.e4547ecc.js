@@ -29,4 +29,4 @@ module.exports={_id:1,names:"Lorem",surnames:"Ipsum",profession:"Software Develo
 },{"react":"1n8/","fs":"70rD"}],"/deH":[function(require,module,exports) {
 "use strict";var e=d(require("react")),t=d(require("react-dom")),r=d(require("./components/Header")),u=d(require("./components/App")),n=d(require("./components/Footer"));function d(e){return e&&e.__esModule?e:{default:e}}t.default.render(e.default.createElement(r.default,null),document.getElementById("header")),t.default.render(e.default.createElement(u.default,null),document.getElementById("app")),t.default.render(e.default.createElement(n.default,null),document.getElementById("footer"));
 },{"react":"1n8/","react-dom":"NKHc","./components/Header":"yjEo","./components/App":"FbLG","./components/Footer":"fAbv"}]},{},["/deH"], null)
-//# sourceMappingURL=src.8b53ca47.map
+//# sourceMappingURL=src.dd3e9678.map

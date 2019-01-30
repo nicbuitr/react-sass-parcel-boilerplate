@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- node
+install: true
+script:
+- echo "Skipping tests"
+# deploy:
+#   provider: heroku
+#   api_key:
+#     secure: XlfGkcvClpumhFuRZ+DT+oxEqwWvWnpPK76relDxX+yE3NWrv9zdRFr4o7JdHClh5PCKEGwIB1W4GMpQ+f1IYXVYeUVuQxZgXFKiAe4+pnzyv9mM+gC6hO8u+OcnrEObyFoFaqIa3athwXWZ4IJa/uQESEFHJR4HrWZTCaksu6aJJLruG+PFE2F/qflt8q8uYacNz6H07czE9OaQ0v3QQ9fv1rPFKzq2bJB/GRHSo/h9Z0LwROsdGfWiK0aa73wmJ/LfD8EaKZ9SVNb6JTITPjQ73DUAmRbMYVbO8E8eYmr+inGpYm2ciW/KBrI6dC7XDyjIYFzFl5Thl/6pQVo8w/3iKDgRQlNjwZMdElO8b/5ZzBkBbEsiz+L8mefizzRPUPhqGKshHASQti9muJK36g1BY/PFIJ3jj2AS+AijBnBx+UrKD9PJXnr2fiMZUw2+BNQlUb6+ycoPqaBDLZWWUjemfMMOOWQ/nlaN5NkjNNdD8OpFszfJ35hhEzJSR3t92ixSj6/2AA7qKKljvAveb3wNAf1PDzl4uL61KjjsCIKt5QnxRb3hHuYRCyui7QoQ/g9BOpCr7ml7yhk9hD3y1uQmnpWEaKoeUCbn3UPaVezJ54yFXnfTKHgma6JaVADxy6bg3axSeLmfQUn1t6FexrLu9w2UpTIrDLnv2z4l87U=
+#   app: react-sass-parcel-boilerplate
+#   on:
+#     repo: nicbuitr/react-sass-parcel-boilerplate
+cache:
+  directories:
+  - node_modules

@@ -1,16 +1,18 @@
 {
   "name": "react-sass-parcel-boilerplate",
-  "version": "1.0.0",
   "description": "React, Parcel, Sass Boilerplate",
-  "repository": "https://github.com/nicbuitr",
+  "author": "Nicolás Buitrago Castaño (nicbuitr)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicbuitr/react-sass-parcel-boilerplate.git"
+  },
   "main": "index.jsx",
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --out-dir docs --public-url ./"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.4.2",
     "node-sass": "^4.11.0",

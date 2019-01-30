@@ -27,11 +27,11 @@ class App extends Component {
   }
 
   renderSearchResults(e) {
-    if(e != undefined){
-        if(e.target.name === 'searchString'){
-            e.preventDefault();
-            this.setState({searchString: e.target.value});
-        }
+    if (e != undefined) {
+      if (e.target.name === 'searchString') {
+        e.preventDefault();
+        this.setState({ searchString: e.target.value });
+      }
     }
   }
 
@@ -51,9 +51,9 @@ class App extends Component {
     return (
       <section className="app">
         <div className="app__search-box">
-          <hr/>
-          <input type="text" aria-label="Type to search" ref="textInput" name="searchString" placeholder="Type to search" value={this.state.searchString}  onChange={this.renderSearchResults.bind(this)} />
-          <hr/>
+          <hr />
+          <input type="text" aria-label="Type to search" ref="textInput" name="searchString" placeholder="Type to search" value={this.state.searchString} onChange={this.renderSearchResults.bind(this)} />
+          <hr />
         </div>
         <div className="app__content">
           <div className="app__joke">
@@ -64,11 +64,11 @@ class App extends Component {
             <div className="app__exp">
               {filteredExperiences
                 .map((experience, index) => {
-                  return (<div key={index}>{experience.job_title}<br/> Duration(Months): {experience.duration}</div>)
+                  return (<div key={index}>{experience.job_title}<br /> Duration(Months): {experience.duration}</div>)
                 })}
-              
+
             </div>
-            <div>Total duration: {filteredExpDuration} Months ≈ ({(filteredExpDuration/12).toFixed(1)} Years) </div>
+            <div>Total duration: {filteredExpDuration} Months ≈ ({(filteredExpDuration / 12).toFixed(1)} Years) </div>
           </span>
         </div>
       </section>

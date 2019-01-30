@@ -11,42 +11,54 @@
       "company": "Lorem Logistics",
       "start_date": "August 2015",
       "end_date": "December 2016",
-      "job_description": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, facere officia! Nostrum quis, eos, laborum fugit molestiae omnis enim dolorum necessitatibus saepe iste temporibus quisquam sed quas sapiente eius quae."]
+      "job_description": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, facere officia! Nostrum quis, eos, laborum fugit molestiae omnis enim dolorum necessitatibus saepe iste temporibus quisquam sed quas sapiente eius quae."
+      ]
     },
     {
       "job_title": "Senior Test Analyst",
       "company": "Ipsum Services",
       "start_date": "June 2015",
       "end_date": "August 2015",
-      "job_description": ["Repellendus eligendi atque laborum aliquam corporis laudantium nisi pariatur. Id, eos! Quaerat itaque tempora doloribus repellendus aperiam, nobis ex, aliquid dignissimos accusamus temporibus, facilis est provident nihil reiciendis dolores soluta."]
+      "job_description": [
+        "Repellendus eligendi atque laborum aliquam corporis laudantium nisi pariatur. Id, eos! Quaerat itaque tempora doloribus repellendus aperiam, nobis ex, aliquid dignissimos accusamus temporibus, facilis est provident nihil reiciendis dolores soluta."
+      ]
     },
     {
       "job_title": "Senior Programming Analyst",
       "company": "Amet Consulting",
       "start_date": "March 2013",
       "end_date": "October 2014",
-      "job_description": ["Cum dolor error ipsum necessitatibus neque et sed incidunt dignissimos est explicabo molestiae, eligendi ad amet enim numquam ea! Aperiam, sequi amet ab nobis hic ex iusto neque? Vero, officiis."]
+      "job_description": [
+        "Cum dolor error ipsum necessitatibus neque et sed incidunt dignissimos est explicabo molestiae, eligendi ad amet enim numquam ea! Aperiam, sequi amet ab nobis hic ex iusto neque? Vero, officiis."
+      ]
     },
     {
       "job_title": "Base Programmer",
       "company": "Excepturi Consulting",
       "start_date": "October 2012",
       "end_date": "March 2013",
-      "job_description": ["Excepturi numquam quod temporibus nobis. Molestias aliquid dicta voluptatem neque molestiae minima nostrum cum eligendi facilis, nesciunt reprehenderit quia consectetur, doloribus ea ut, eaque id modi voluptate. Libero, ut sunt!"]
+      "job_description": [
+        "Excepturi numquam quod temporibus nobis. Molestias aliquid dicta voluptatem neque molestiae minima nostrum cum eligendi facilis, nesciunt reprehenderit quia consectetur, doloribus ea ut, eaque id modi voluptate. Libero, ut sunt!"
+      ]
     },
     {
       "job_title": "Programmer",
       "company": "Consequatur Agency",
       "start_date": "January 2011",
       "end_date": "June 2011",
-      "job_description": ["Consequatur, assumenda aliquid natus dignissimos totam omnis accusantium alias repellat. Repellat tempora repudiandae praesentium deleniti, nobis aperiam vero animi odio ipsum! Eum incidunt eligendi velit veritatis neque quis unde repellat."]
+      "job_description": [
+        "Consequatur, assumenda aliquid natus dignissimos totam omnis accusantium alias repellat. Repellat tempora repudiandae praesentium deleniti, nobis aperiam vero animi odio ipsum! Eum incidunt eligendi velit veritatis neque quis unde repellat."
+      ]
     },
     {
       "job_title": "Software Developer",
       "company": "Quam Private Server",
       "start_date": "December 2009",
       "end_date": "June 2010",
-      "job_description": ["Quam iusto atque itaque accusamus laudantium voluptatibus assumenda ipsa culpa autem obcaecati consectetur eveniet, mollitia et placeat saepe sit earum, commodi, repudiandae laboriosam voluptatum suscipit sunt harum? Commodi, voluptates corrupti."]
+      "job_description": [
+        "Quam iusto atque itaque accusamus laudantium voluptatibus assumenda ipsa culpa autem obcaecati consectetur eveniet, mollitia et placeat saepe sit earum, commodi, repudiandae laboriosam voluptatum suscipit sunt harum? Commodi, voluptates corrupti."
+      ]
     }
-  ] 
+  ]
 }
